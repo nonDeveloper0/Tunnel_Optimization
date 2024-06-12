@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Tunnel_Section_Optimization</Text>
+    <Description>Some description for Tunnel_Section_Optimization</Description>
+    <Assembly>Tunnel_Section_Optimization.dll</Assembly>
+    <FullClassName>Tunnel_Section_Optimization.Command</FullClassName>
+    <ClientId>a1d84831-586a-456b-9915-c60b115d5d96</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Tunnel_Section_Optimization</Name>
+    <Assembly>Tunnel_Section_Optimization.dll</Assembly>
+    <FullClassName>Tunnel_Section_Optimization.Application</FullClassName>
+    <ClientId>aa105265-7af9-4049-89a9-b91bdb174f22</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
