@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows.Forms;
+using Application = Autodesk.Revit.ApplicationServices.Application;
 
 #endregion
 
@@ -25,6 +26,10 @@ namespace Tunnel_Section_Optimization
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
+
+            //Console창 띄우기
+            Console.WriteLine("미구현");
+            Console.ReadLine();
 
             // Access current selection
 
